@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(249, 247, 254);
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+  font-style: normal;
+}
+.main-body {
+  border: 1px solid white;
+  background-color: white;
+  width: 600px;
+  padding: 30px;
+  margin: 400px;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+main p {
+  opacity: 0.6;
+  font-weight: lighter;
+}
+.degree {
+  position: relative;
+  bottom: 25px;
+  font-weight: lighter;
+  font-size: 30px;
+}
+strong {
+  color: red;
+  font-weight: bold;
+}
+
+.form-enter,
+.form-search {
+  border-radius: 4px;
+  border: 1px solid rgb(249, 247, 254);
+  height: 50px;
+  font-size: 20px;
+}
+
+.form-enter {
+  width: 500px;
+  background-color: rgb(249, 247, 254);
+  padding: 20px;
+  opacity: 0.4;
+}
+.form-search {
+  width: 80px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 15px;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border: 1px solid rgb(249, 247, 254);
+  margin-top: 30px;
+  border-left-style: none;
+  border-right-style: none;
+}
+.current-tempe {
+  padding-top: 40px;
+  font-size: 60px;
+}
+footer {
+  opacity: 0.6;
+}
